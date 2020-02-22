@@ -8,4 +8,4 @@ class Dog
 end
 
 fido = Dog.new      #initializing a new object/instance
-fido.bark
+puts fido.bark
