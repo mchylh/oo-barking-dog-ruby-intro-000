@@ -2,7 +2,7 @@ class Dog
   def name
     puts "Fido"
   def bark
-    puts "Woof!"
+    puts "woof!"
   end
  end
 
