@@ -1,13 +1,16 @@
 class Dog
-  def name
-    fido.name = "Fido"
+
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
   end
 
   def bark
-    puts "woof!"
+    "woof!"
   end
 end
 
-
- fido.bark
-   # => "Woof!"    #call instance method bark on object fido
+fido = Dog.new("Fido")
+fido.name
+fido.bark
