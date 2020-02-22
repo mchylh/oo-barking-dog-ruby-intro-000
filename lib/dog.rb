@@ -1,11 +1,11 @@
-# Your code goes here!
-#OO Initialization
 class Dog
-  def initialize(name = "Fido", bark = "woof!")
-    @name = name
-    @bark = bark
+  def name
+    puts "Fido"
+  def bark
+    puts "Woof!"
   end
-end
+ end
 
-fido = Dog.new      #initializing a new object/instance
-fido.bark
+ fido.name     #initializing a new object/instance
+ fido.bark
+   # => "Woof!"    #call instance method bark on object fido
