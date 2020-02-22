@@ -1,5 +1,5 @@
 class Dog
-  def name = "Fido"
+  def name
   end
 
   def bark
@@ -7,6 +7,6 @@ class Dog
   end
 end
 
- fido = Dog.new      #initializing a new object/instance
+ fido = Dog.new("Fido")      #initializing a new object/instance
  fido.bark
    # => "Woof!"    #call instance method bark on object fido
