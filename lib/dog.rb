@@ -8,6 +8,6 @@ class Dog
   end
 end
 
- fido.name     #initializing a new object/instance
+
  fido.bark
    # => "Woof!"    #call instance method bark on object fido
